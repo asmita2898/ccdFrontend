@@ -98,6 +98,9 @@ const Edit = () => {
         else if (mobile.length > 10) {
             toast.error("Please Enter Valid Mobile Number!")
         }
+        else if (mobile.length < 10) {
+            toast.error("Please Enter Valid Mobile Number!")
+        }
         else if (category === "") {
             toast.error("Please Select Category!")
         }
@@ -158,7 +161,7 @@ const Edit = () => {
 
                                     <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
                                         <Form.Label>Mobile</Form.Label>
-                                        <Form.Control type="text" name='mobile' value={inputdata.mobile} onChange={setInputValue} placeholder="Enter mobile" />
+                                        <Form.Control type="number" name='mobile' value={inputdata.mobile} onChange={setInputValue} placeholder="Enter mobile" />
                                     </Form.Group>
 
                                     <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
