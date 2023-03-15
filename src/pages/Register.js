@@ -159,7 +159,7 @@ const Register = () => {
 
                                     <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
                                         <Form.Label>Mobile</Form.Label>
-                                        <Form.Control type="text" name='mobile' value={inputdata.mobile} onChange={setInputValue} placeholder="Enter mobile" />
+                                        <Form.Control type="number" name='mobile' value={inputdata.mobile} onChange={setInputValue} placeholder="Enter mobile" />
                                     </Form.Group>
 
                                     <Form.Group className="mb-3 col-lg-6" controlId="formBasicEmail">
