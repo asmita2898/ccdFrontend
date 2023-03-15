@@ -76,6 +76,9 @@ const Register = () => {
         else if (mobile.length > 10) {
             toast.error("Please Enter Valid Mobile Number!")
         }
+        else if (mobile.length < 10) {
+            toast.error("Please Enter Valid Mobile Number!")
+        }
         else if (category === "") {
             toast.error("Please Select Category!")
         }
