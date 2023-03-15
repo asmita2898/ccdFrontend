@@ -1,0 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+
+.menu_name{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.price{
+    text-align: center;
+    font-size: 25px;
+}
+

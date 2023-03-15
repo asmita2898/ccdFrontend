@@ -1,0 +1,51 @@
+.title{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.title span{
+    font-size: 40px;
+    color: brown;
+}
+
+.title_div{
+    margin-top: 20px;
+}
+
+.cont_us{
+    margin-top: 70px;
+    
+}
+
+.cont_us span{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: overline;
+    color: white;
+}
+
+.cont_us p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.card_div{
+    width: 100vh;
+    height: 40vh;
+    text-align: center;
+    margin: auto;
+    background-image: url('https://media.istockphoto.com/id/1072946340/photo/glass-cold-brew-coffee-with-ice-and-milk-on-black-or-dark-background.jpg?b=1&s=170667a&w=0&k=20&c=LOO7VJmOGpeT1wyCtnb7VeCJ3pBfhr0vHAi6VaASRpY=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.thanks_div p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
