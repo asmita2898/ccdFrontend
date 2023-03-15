@@ -22,7 +22,18 @@
 }
 
 .filter_category{
-   
+    margin-top: 20px;
     margin-bottom: 30px;
 }
+
+@media (min-width:280px) and (max-width:900px){
+    .search_form{
+     width: 270px;
+    }
+ 
+    .filter{
+       margin-left: 0;
+       margin-top: 50px;
+    }
+ }
 

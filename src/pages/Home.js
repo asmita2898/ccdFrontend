@@ -71,9 +71,9 @@ const Home = () => {
       <div className="container">
         <div className="main_div">
           {/* search add btn */}
-          <div className="search_add mt-4 d-flex justify-content-between">
+          <div className="search_add mt-4 ">
             <div className="search col-lg-4">
-              <Form className="d-flex">
+              <Form className="d-flex search_form">
 
                 <Form.Control
                   type="search"
@@ -89,7 +89,7 @@ const Home = () => {
 
             {/*category*/}
 
-            <div className="filter_category">
+            <div className="filter_category d-flex justify-content-between">
               <div className="filter">
                 <h3>Filter By Category</h3>
                 <div className="category d-flex justify-content-between">

@@ -49,3 +49,18 @@
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+@media (min-width:280px) and (max-width:900px){
+    .card_div{
+        height: 270px;
+        width: 100%;
+    }
+
+    .thanks_div p{
+        font-size: 35px;
+    }
+
+    .title span{
+        font-size: 25px;
+    }
+}

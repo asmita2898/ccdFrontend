@@ -7,3 +7,12 @@
 .product_div{
     margin-top: 15px;
 }
+
+@media (min-width:280px) and (max-width:900px){
+
+    .product_div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

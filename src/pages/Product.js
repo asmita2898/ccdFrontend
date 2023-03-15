@@ -57,7 +57,7 @@ const Product = () => {
         </Carousel>
 
 
-        <div>
+        <div className='sec_product'>
           <Carousel>
             <Carousel.Item>
               <a href="/menus" className='text-decoration-none'>
@@ -103,7 +103,7 @@ const Product = () => {
           </Carousel>
         </div>
 
-        <div>
+        <div className='third_product'>
           <Carousel>
             <Carousel.Item>
               <a href="/menus" className='text-decoration-none'>
